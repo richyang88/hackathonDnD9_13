@@ -32,7 +32,7 @@ const getProduct = (productId) => {
   return ProductCollection.findById(productId);
 }
 
-const updateProduct = (productId) => {
+const updateProduct = (productId, product) => {
   return ProductCollection.findByIdAndUpdate(productId);
 }
 
