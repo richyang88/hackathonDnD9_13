@@ -69,6 +69,10 @@ code {
   text-align: center;
 }
 
+.GalleryTopRow{
+  margin: 50px 0px 50px 0px;
+}
+
 .GalleryTopImgs{
   display:flex;
   justify-content: space-around;
@@ -80,6 +84,35 @@ code {
   width: 20vw;
 }
 
+.GalleryTopImage1{
+  background-color: aqua;
+  background-image: url(/gummyWorms.jpg);
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+.GalleryTopImage2{
+  background-color: aqua;
+  background-image: url(/chocoHazel.jpg);
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+.GalleryTopImage3{
+  background-color: aqua;
+  background-image: url(/petitFourWorking.jpg);
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+.GalleryTopImage4{
+  background-color: aqua;
+  background-image: url(/chocoCherries.jpg);
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+
 
 .GalleryTopTexts{
   display:flex;
@@ -87,11 +120,17 @@ code {
 }
 
 .GTTexts{
-  background-color: blue;
-  border:solid;
+  /* background-color: blue; */
+  /* border:solid; */
   width: 20vw;
   justify-content: space-around;
+  text-align: center;
 }
+
+
+
+
+
 
 .GalleryBotImgs{
   display:flex;

@@ -14,7 +14,9 @@ function App() {
           <div className="LogoCenter">More Cowbell, please! </div>
         </div>
         <div className="LogoRight">
-          <div className="AboutDiv"> About Us <img src={"./shoppingCart.png"} ></img></div>
+          <div className="AboutDiv"> About Us 
+            <img src={"./shoppingCart.png"} ></img>
+          </div>
         </div>
       </div>
 
@@ -33,16 +35,16 @@ function App() {
       
       <div className="GalleryTopRow"> {/*start top row div */}
         <div className="GalleryTopImgs"> {/*Start images row div */}
-          <div className="GalleryTopImage1 GTImages">img1</div>
-          <div className="GalleryTopImage2 GTImages">img2</div>
-          <div className="GalleryTopImage3 GTImages">img3</div>
-          <div className="GalleryTopImage4 GTImages">img4</div>
+          <div className="GalleryTopImage1 GTImages"></div>
+          <div className="GalleryTopImage2 GTImages"></div>
+          <div className="GalleryTopImage3 GTImages"></div>
+          <div className="GalleryTopImage4 GTImages"></div>
         </div> {/*End imgs row div */}
         <div className="GalleryTopTexts"> 
-          <div className="GalleryTopText1 GTTexts">Product 1</div>
-          <div className="GalleryTopText2 GTTexts">Product 2</div>
-          <div className="GalleryTopText3 GTTexts">Product 3</div>
-          <div className="GalleryTopText4 GTTexts">Product 4</div>
+          <div className="GalleryTopText1 GTTexts">Gummy WERRRMSSS</div>
+          <div className="GalleryTopText2 GTTexts">Chocolate</div>
+          <div className="GalleryTopText3 GTTexts">Hmmmm</div>
+          <div className="GalleryTopText4 GTTexts">CHOCOLATE</div>
         </div>
       </div> {/*End top row text */}
 
