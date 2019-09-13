@@ -18,22 +18,30 @@ code {
 
 
 .TopRow{
+  display:flex;
+  justify-content: center;
+  margin-top:50px;
   text-align: center;
-  background-color: green;
+  /* background-color: green; */
 }
-
+.LogoHere{
+  background-image: url(/logoNew.jpg);
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+}
 .LogoRow{
   display:flex;
   justify-content: center;
   width: 100vw;
-  background-color: red;
+  /* background-color: red; */
 
 }
 
 .LogoLeft{
   display:flex;
   justify-content: center;
-  background-color: yellow;
+  /* background-color: yellow; */
   width: 70vw;
   font-size: 20px;
 }
@@ -47,7 +55,7 @@ code {
 .LogoRight{
   /* display: flex; */
   justify-content: flex-end;
-  background-color: blue;
+  /* background-color: blue; */
   /* margin-left: 100px; */
   right: -300px;
   
@@ -57,9 +65,12 @@ code {
   font-size: 20px;
 }
 
-/* .MainImg{
-  
-} */
+.MainImg{
+  margin: 0px 200px;
+  background-image: url(/homeLoliPop.jpg);
+  height: 300px;
+  background-size: contain;
+}
 
 .TextDescription{
   text-align: center
@@ -70,7 +81,7 @@ code {
 }
 
 .GalleryTopRow{
-  margin: 50px 0px 50px 0px;
+  margin: 50px 200px 50px 200px;
 }
 
 .GalleryTopImgs{
@@ -80,7 +91,8 @@ code {
 
 .GTImages{
   background-color: orange;
-  border:solid;
+  margin: 0px 10px;
+  /* border:solid; */
   width: 20vw;
 }
 
@@ -129,13 +141,52 @@ code {
 
 
 
-
+.GalleryBotRow{
+  margin: 50px 200px;
+}
 
 
 .GalleryBotImgs{
   display:flex;
   justify-content: space-around;
+  margin: 0px 10px;
 }
+.GTImages2{
+  margin: 0px 10px;
+}
+.GalleryBotImage1{
+  background-color: aqua;
+  background-image: url(/gummyBears.jpg);
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+.GalleryBotImage2{
+  background-color: aqua;
+  background-image: url(/popCorn.jpg);
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+.GalleryBotImage3{
+  background-color: aqua;
+  background-image: url(/gumballs.jpg);
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+.GalleryBotImage4{
+  background-color: aqua;
+  background-image: url(/sourGummy.jpg);
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+}
+
+
+
+
+
 .GalleryBotTexts{
   display:flex;
   justify-content: space-around;

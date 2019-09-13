@@ -6,12 +6,14 @@ function App() {
   return (
     <div className="AppCont">
       <div className="TopRow">
-        <img src={"./candyLogo.png"}></img>
+        <div className="LogoHere">
+          {/* <img src={"./logoNew.jpg"}></img> */}
+        </div>
       </div>
 
       <div className="LogoRow">
         <div className="LogoLeft">
-          <div className="LogoCenter">More Cowbell, please! </div>
+          <div className="LogoCenter"></div>
         </div>
         <div className="LogoRight">
           <div className="AboutDiv"> About Us 
@@ -20,13 +22,10 @@ function App() {
         </div>
       </div>
 
-      <div className="MainImg">
-        {/* <img src ={""} */}
-        Gummi Worms Pic goes here
-      </div>
+      <div className="MainImg"></div>
 
       <div className="TextDescription">
-        lorem ispsum text
+      More Cowbell, please!
       </div>
 
       <div className="GalleryTitle">
@@ -50,10 +49,10 @@ function App() {
 
       <div className="GalleryBotRow">{/*Start bot row div */}
         <div className="GalleryBotImgs">{/*start top row imgs */}
-          <div className="GalleryBotImage1">img1</div>
-          <div className="GalleryBotImage2">img2</div>
-          <div className="GalleryBotImage3">img3</div>
-          <div className="GalleryBotImage4">img4</div>
+          <div className="GalleryBotImage1 GTImages2"></div>
+          <div className="GalleryBotImage2 GTImages2"></div>
+          <div className="GalleryBotImage3 GTImages2"></div>
+          <div className="GalleryBotImage4 GTImages2"></div>
         </div>{/*End bot row imgs */}
         <div className="GalleryBotTexts">
           <div className="GalleryBotText1">Product 1</div>
