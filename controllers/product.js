@@ -23,8 +23,13 @@ productRouter.route('/:id')
     .catch( () => res.sendStatus(400) )
   })
   .delete( (req, res) => {
-    productApi.deleteProduct(req.params.id, req.body)
+    productApi.deleteProduct(req.params.id)
     .then( () => res.sendStatus(200) )
+    .catch( () => res.sendStatus(400) )
+  })
+  .put( (req, res) => {
+    productApi.updateProduct(req.params.id, req.body)
+    .then( product => res.send(product) )
     .catch( () => res.sendStatus(400) )
   });
 
