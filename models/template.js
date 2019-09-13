@@ -44,7 +44,7 @@ global.sampleModel = [];
  *
  */
 function getHelloWorldString() {
-  return 'hello world'
+  return 'helloooo this world'
 }
 
 /* Step 5
