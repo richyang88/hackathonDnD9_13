@@ -4,22 +4,65 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="AppCont">
+      <div className="TopRow">
+        <img src={"./candyLogo.png"}></img>
+      </div>
+
+      <div className="LogoRow">
+        <div className="LogoLeft">
+          <div className="LogoCenter">More Cowbell, please! </div>
+        </div>
+        <div className="LogoRight">
+          <div className="AboutDiv"> About Us <img src={"./shoppingCart.png"} ></img></div>
+        </div>
+      </div>
+
+      <div className="MainImg">
+        {/* <img src ={""} */}
+        Gummi Worms Pic goes here
+      </div>
+
+      <div className="TextDescription">
+        lorem ispsum text
+      </div>
+
+      <div className="GalleryTitle">
+        September's Curated Confections
+      </div>
+      
+      <div className="GalleryTopRow"> {/*start top row div */}
+        <div className="GalleryTopImgs"> {/*Start images row div */}
+          <div className="GalleryTopImage1 GTImages">img1</div>
+          <div className="GalleryTopImage2 GTImages">img2</div>
+          <div className="GalleryTopImage3 GTImages">img3</div>
+          <div className="GalleryTopImage4 GTImages">img4</div>
+        </div> {/*End imgs row div */}
+        <div className="GalleryTopTexts"> 
+          <div className="GalleryTopText1 GTTexts">Product 1</div>
+          <div className="GalleryTopText2 GTTexts">Product 2</div>
+          <div className="GalleryTopText3 GTTexts">Product 3</div>
+          <div className="GalleryTopText4 GTTexts">Product 4</div>
+        </div>
+      </div> {/*End top row text */}
+
+      <div className="GalleryBotRow">{/*Start bot row div */}
+        <div className="GalleryBotImgs">{/*start top row imgs */}
+          <div className="GalleryBotImage1">img1</div>
+          <div className="GalleryBotImage2">img2</div>
+          <div className="GalleryBotImage3">img3</div>
+          <div className="GalleryBotImage4">img4</div>
+        </div>{/*End bot row imgs */}
+        <div className="GalleryBotTexts">
+          <div className="GalleryBotText1">Product 1</div>
+          <div className="GalleryBotText2">Product 2</div>
+          <div className="GalleryBotText3">Product 3</div>
+          <div className="GalleryBotText4">Product 4</div>
+        </div>{/*End bot row text */}
+      </div>
     </div>
+
+
   );
 }
 
