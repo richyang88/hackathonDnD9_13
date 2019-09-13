@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.AppCont{
+  height: 100vh;
+}
+
+
+.TopRow{
+  text-align: center;
+  background-color: green;
+}
+
+.LogoRow{
+  display:flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: red;
+
+}
+
+.LogoLeft{
+  display:flex;
+  justify-content: center;
+  background-color: yellow;
+  width: 70vw;
+  font-size: 20px;
+}
+
+.LogoCenter{
+  /* justify-content: center; */
+  margin-left: 100px;
+  text-align: center;
+}
+
+.LogoRight{
+  /* display: flex; */
+  justify-content: flex-end;
+  background-color: blue;
+  /* margin-left: 100px; */
+  right: -300px;
+  
+}
+
+.AboutDiv{
+  font-size: 20px;
+}
+
+/* .MainImg{
+  
+} */
+
+.TextDescription{
+  text-align: center
+}
+
+.GalleryTitle{
+  text-align: center;
+}
+
+.GalleryTopImgs{
+  display:flex;
+  justify-content: space-around;
+}
+
+.GTImages{
+  background-color: orange;
+  border:solid;
+  width: 20vw;
+}
+
+
+.GalleryTopTexts{
+  display:flex;
+  justify-content: space-around;
+}
+
+.GTTexts{
+  background-color: blue;
+  border:solid;
+  width: 20vw;
+  justify-content: space-around;
+}
+
+.GalleryBotImgs{
+  display:flex;
+  justify-content: space-around;
+}
+.GalleryBotTexts{
+  display:flex;
+  justify-content: space-around;
+}
