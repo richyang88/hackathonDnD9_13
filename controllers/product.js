@@ -12,25 +12,21 @@ productRouter.route('/')
   })
   .post( (req, res) => {
     productApi.addProduct(req.body)
-    .then( () => res.sendStatus(400) )
-    .catch( () => res.sendStatus(200) )
+    .then( () => res.sendStatus(200) )
+    .catch( () => res.sendStatus(400) )
   });
 
 productRouter.route('/:id')
   .get( (req, res) => {
     productApi.getProduct(req.params.id)
     .then( product => res.send(product) )
-    .catch( () => res.sendStatus(200) )
+    .catch( () => res.sendStatus(400) )
   })
   .delete( (req, res) => {
     productApi.deleteProduct(req.params.id, req.body)
-    .then( () => res.sendStatus(400) )
-    .catch( () => res.sendStatus(200) )
+    .then( () => res.sendStatus(200) )
+    .catch( () => res.sendStatus(400) )
   });
-
-// templateRouter.get('/', (req, res) => {
-//   res.send(templateApi.getHelloWorldString())
-// })
 
 module.exports = {
   productRouter
